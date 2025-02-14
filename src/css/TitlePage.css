@@ -1,0 +1,73 @@
+ /* TitlePage.js css */
+
+ body {
+     background-color: var(--black);
+
+ }
+
+ .background {
+     /*
+    background-image: url("../img/cs_wallpaper.jpg");
+    */
+     background-size: cover;
+     width: 100vw;
+     height: 100vh;
+
+ }
+
+ .titlePage {
+     width: 100vw;
+     min-width: 200px;
+     height: 100vh;
+     background-color: var(--black);
+
+
+     /*
+   background-image: url(../img/mimi-main.png);
+   */
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     z-index: 0;
+
+ }
+
+ .titleBox {
+     width: 40vw;
+     height: 40vh;
+     padding: 20px;
+     padding-bottom: 0;
+     opacity: 70%;
+     position: absolute;
+     top: 25%;
+     left: 25%;
+     text-align: left;
+ }
+
+ .title {
+     color: white;
+     font-size: 10vh;
+     font-weight: 600;
+     text-shadow: 4px 4px var(--blue);
+ }
+
+ .subtitle {
+     color: var(--yellow);
+     font-style: italic;
+     font-weight: 400;
+ }
+
+ .link-box {
+     width: 40vw;
+
+ }
+
+ .link {
+     padding-right: 20px;
+     text-decoration: none;
+
+ }
+
+ .link:hover {
+     color: var(--lightblue);
+ }

@@ -1,0 +1,70 @@
+/* projects.js css */
+.projectBox {
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+}
+
+.projects {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+
+.project-box {
+    width: 30%;
+    min-height: 300px;
+    height: 50vh;
+    min-width: 500px;
+    margin: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    animation: fadeInSlideBottom 5s linear 3s 1 alternate;
+    box-shadow: 5px 5px 5px 5px black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.project-box:hover {
+    border: 2px solid black;
+
+
+}
+
+.project-title {
+    margin: auto;
+
+    margin-bottom: 30px;
+
+}
+
+.project-section-title {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 10%;
+    font-weight: 600;
+    text-shadow: 2px 2px var(--lightblue);
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: calc(20px + 3.5vw);
+
+}
+
+h3.project-title {
+    font-size: 6vh;
+}
+
+.project-link {
+    text-decoration: none;
+    color: var(--yellow);
+    font-weight: bold;
+}
+
+.project-link:hover {
+    color: var(--lightblue);
+}
